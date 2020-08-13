@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  {% load static %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'javits.ico' %}"/>
+  {% block head %}
+    <title>Home</title>
+  {% endblock %}
+</head>
+
+
+<div class="container">
+  {% block header %}
+      <h2>Welcome to Maverick</h2>
+  {% endblock %}
+
+  <body>
+    {% block body %}
+    {% endblock %}
+  </body>
+
+</div>
+</html>
+</body>
+</html>
