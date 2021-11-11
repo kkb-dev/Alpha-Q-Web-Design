@@ -1,0 +1,12 @@
+{% autoescape off %}
+
+Greetings from AlphaQuant!,
+<hr>
+Click the link to reset your password.<br>
+<a>https://{{ domain }}{% url 'activate' uidb64=uid token=token %}</a>
+<hr>
+If you think, it's not you, then just ignore this email.
+
+<strong>Thanks!</strong>
+
+{% endautoescape %}
